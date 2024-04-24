@@ -4,7 +4,7 @@ import { FaCartShopping } from "react-icons/fa6";
 const Header = () => {
   return (
     <>
-      <div className="navbar bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white rounded-xl">
+      <div className="navbar bg-gradient-to-r from-[#5E24FB] to-[#9B74FC] text-white rounded-xl">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
