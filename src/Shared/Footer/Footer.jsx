@@ -5,8 +5,8 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 const Footer = () => {
   return (
     <>
-      <div>
-        <footer className="footer p-10 bg-gradient-to-r from-[#5E24FB] to-[#9B74FC] text-white">
+      <div className="bg-gradient-to-r from-[#5E24FB] to-[#9B74FC] text-white">
+        <footer className="footer p-10">
           <aside>
             <h1 className=" text-3xl font-extrabold">EventHost</h1>
             <p>
@@ -42,6 +42,18 @@ const Footer = () => {
               </a>
             </div>
           </nav>
+        </footer>
+        <hr />
+        <footer className="footer p-10 flex items-center justify-between">
+          <nav className="grid-flow-col gap-4 ">
+            <div className=" flex items-center gap-3">
+              <div>Pay With</div>
+              <div>BKash</div>
+              <div>নগদ</div>
+              <div>রকেট</div>
+            </div>
+          </nav>
+          <p>©2023 TickHost & UVTR. All right reserved</p>
         </footer>
       </div>
     </>
